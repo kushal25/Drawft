@@ -1,0 +1,168 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tile_background"
+    tools:context="com.drawft.UserProfileActivity">
+
+    <RelativeLayout
+        android:id="@+id/coverImages"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1.0"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            xmlns:fresco="http://schemas.android.com/apk/res-auto">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/userCoverPhoto3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                fresco:actualImageScaleType="centerInside"/>
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/userCoverPhoto2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                fresco:actualImageScaleType="centerInside"/>
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/userCoverPhoto1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                fresco:actualImageScaleType="centerInside"/>
+
+            <!--<ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/userCoverPhoto3"
+                android:layout_weight="1.0"
+                android:contentDescription="@string/description" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/userCoverPhoto2"
+                android:layout_weight="1.0"
+                android:contentDescription="@string/description" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/userCoverPhoto1"
+                android:layout_weight="1.0"
+                android:contentDescription="@string/description" />-->
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/user_profile_up"
+            android:layout_toEndOf="@+id/user_profile_up"
+            android:text="@string/app_name"
+            android:gravity="right"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textStyle="normal|bold"
+            android:textColor="@color/font_color"
+            android:textSize="24sp"
+            android:paddingBottom="3dp"
+            android:paddingTop="12dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp" />
+
+        <TextView
+            android:id="@+id/tileNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:paddingRight="16dp"
+            android:gravity="right|end"
+            android:layout_below="@+id/userName"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:singleLine="true"
+            android:textColor="@color/font_color" />
+
+        <TextView
+            android:id="@+id/user_profile_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal|bold"
+            android:textColor="@color/font_color"
+            android:text="@string/arrow_left"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:textSize="24sp"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/useractivity1"
+        android:background="@color/home_screen_background"
+        android:layout_marginTop="150dp"
+        android:layout_above="@+id/relativeLayout" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/blockUser"
+            android:gravity="center"
+            android:clickable="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/icon_block"
+            android:textStyle="normal|bold"
+            android:textColor="@color/font_color"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/clear_drawfts"
+            android:clickable="true"
+            android:textStyle="normal|bold"
+            android:textColor="@color/font_color"
+            android:textSize="35sp"
+            android:id="@+id/clearDrawfts"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/loader"
+        style="?android:attr/progressBarStyleInverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:padding="50dp"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

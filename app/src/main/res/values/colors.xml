@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="home_screen_background">#FFFFFF</color>
+    <color name="font_color">#ffffff</color>
+    <color name="number_color">#aaaaaa</color>
+    <color name="group_member_head">#bbbbbb</color>
+    <color name="hint_color">#7C7C7A</color>
+    <color name="icon_color1">#7a8a9a</color>
+    <color name="icon_color">#AAAAAA</color>
+    <color name="dark_color">#1a2a3a</color>
+    <color name="dark_color_name">#999999</color>
+    <color name="icon_color_blue">#1CA5EC</color>
+    <color name="icon_color_red">#EE231C</color>
+    <color name="transparent_color">#88676767</color>
+    <color name="image_background">#CCCCCC</color>
+    <color name="yellow_background">#EBE417</color>
+    <color name="font_AA">#AA1A2A3A</color>
+    <color name="background_EE">#EEFFFFFF</color>
+    <color name="drawing_pad_transparent">#DD000000</color>
+
+    <color name="paint_color_black">#3a4a5a</color>
+    <color name="paint_color_blue">#1ca5ec</color>
+    <color name="paint_color_green">#95d050</color>
+    <color name="paint_color_gray">#d3d3d3</color>
+    <color name="paint_color_orange">#FF8300</color>
+    <color name="paint_color_red">#ef8081</color>
+    <color name="new_group">#000000</color>
+    <color name="light_grey">#DDDDDD</color>
+    <color name="light_transparent">#98EEEEEE</color>
+
+    <color name="background">#e5e5e5</color>
+    <color name="color_normal_main">#00FFFF</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="plusIcon">#808080</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tile_background">#eeeeee</color>
+    <color name="linecolor">#dddddd</color>
+    <color name="blocked">#FF8888</color>
+    <color name="fam_background">#CCFFFFFF</color>
+    <color name="add_or_remove_list">#888888</color>
+    <color name="bottom_drawer">#5a6a7a</color>
+    <color name="setting_things">#D81B60</color>
+
+</resources>

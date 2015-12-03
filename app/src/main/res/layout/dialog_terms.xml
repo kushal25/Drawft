@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="#FFFFFF" />
+
+    <RelativeLayout
+        android:id="@+id/header_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="#1a2a3a">
+
+        <Button
+            android:id="@+id/dialog_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="-10dp"
+            android:background="@android:color/transparent"
+            android:text="@string/icon_cancel"
+            android:textColor="#1ca5ec"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/terms_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:singleLine="true"
+            android:text="@string/terms_conditions"
+            android:textColor="#7a8a9a"
+            android:textSize="28sp">
+
+        </TextView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/white" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/main_wait_1"
+        style="?android:attr/progressBarStyleInverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="40dp"
+        android:padding="50dp"
+        android:visibility="visible" />
+
+</RelativeLayout>

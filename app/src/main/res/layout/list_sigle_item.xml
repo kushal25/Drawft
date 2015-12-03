@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_wrapper"
+        android:paddingLeft="10dp"
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        android:paddingRight="10dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            fresco:actualImageScaleType="centerInside"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/label"/>
+
+        <!--<ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_below="@+id/label"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/description" />-->
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_color_name"
+            android:textSize="20sp"
+            android:paddingTop="6dp"
+            android:paddingBottom="10dp"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/timeStamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/image_background"
+            android:layout_below="@+id/imageView"
+            android:textSize="12sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:minEms="16"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/drawft_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="@string/icon_fa_circle"
+        android:textColor="@color/paint_color_red"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/content_wrapper"
+        android:layout_alignStart="@+id/content_wrapper"
+        android:paddingBottom="10dp" />
+
+
+</RelativeLayout>

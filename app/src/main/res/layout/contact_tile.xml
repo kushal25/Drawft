@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:padding="2dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/tileNumber"
+        android:id="@+id/linearLayout"
+        xmlns:fresco="http://schemas.android.com/apk/res-auto">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/tileImage3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            fresco:actualImageScaleType="centerInside"/>
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/tileImage2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            fresco:actualImageScaleType="centerInside"/>
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/tileImage1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            fresco:actualImageScaleType="centerInside"/>
+
+        <!--<ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tileImage3"
+            android:alpha="0.8"
+            android:layout_weight="1.0"
+            android:contentDescription="@string/description" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tileImage2"
+            android:alpha="0.8"
+            android:layout_weight="1.0"
+            android:contentDescription="@string/description" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tileImage1"
+            android:alpha="0.8"
+            android:layout_weight="1.0"
+            android:contentDescription="@string/description" />-->
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tileLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/app_name"
+        android:textStyle="normal|bold"
+        android:textColor="@color/font_color" />
+
+    <TextView
+        android:id="@+id/tileNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/tileLabel"
+        android:singleLine="true"
+        android:textColor="@color/font_color" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true">
+
+        <Button
+            android:id="@+id/favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:textColor="@color/font_color"
+            android:visibility="invisible"
+            android:maxWidth="10dp"
+            android:background="@android:color/transparent"
+            android:text="@string/icon_tile_user"
+            android:focusable="false"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/appGroupUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:background="@android:color/transparent"
+            android:focusable="false"
+            android:maxWidth="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="2dp"
+            android:text="@string/icon_tile_user"
+            android:textColor="@color/font_color"
+            android:textSize="24sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/blockUser"
+            android:focusable="false"
+            android:paddingRight="10dp"
+            android:maxWidth="10dp"
+            android:textColor="@color/font_color"
+            android:visibility="invisible"
+            android:background="@android:color/transparent"
+            android:text="@string/icon_block"
+            android:textSize="24sp"
+            android:layout_below="@+id/favorite" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

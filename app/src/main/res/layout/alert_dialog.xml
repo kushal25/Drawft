@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white" />
+
+
+    <RelativeLayout
+        android:id="@+id/header_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true">
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/white" />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:textAllCaps="true"
+            android:singleLine="true"
+            android:text="Enter Group Name"
+            android:textColor="@color/white"
+            android:textSize="25sp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/middle_seperator"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white" />
+
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/middle_wrapper"
+        android:visibility="visible"
+        android:background="@color/light_grey">
+
+       <View
+           android:layout_width="5dp"
+           android:layout_height="match_parent"
+           android:layout_alignParentLeft="true"
+           android:background="@android:color/white" />
+
+       <View
+           android:layout_width="5dp"
+           android:layout_height="match_parent"
+           android:layout_alignParentRight="true"
+           android:background="@android:color/white" />
+
+       <EditText
+            android:id="@+id/updateGroupName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="40dp"
+            android:maxLength="20"
+            android:hint="Group Name"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:background="@null"
+            android:singleLine="true"
+            android:inputType="text"
+            android:textColor="@color/dark_color"
+            android:textSize="25sp">
+            <requestFocus />
+
+       </EditText>
+       <TextView
+            android:id="@+id/textCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/dark_color"
+            android:textSize="20sp"
+           android:layout_alignParentRight="true"
+            android:hint="20">
+        </TextView>
+
+    </RelativeLayout>
+
+   <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white" />
+
+   <LinearLayout
+        android:id="@+id/footer_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1.0">
+
+       <View
+           android:layout_width="5dp"
+           android:layout_height="match_parent"
+           android:layout_gravity="left"
+           android:background="@android:color/white" />
+
+       <TextView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:textAllCaps="true"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:textSize="25sp">
+
+       </TextView>
+
+       <View
+           android:layout_width="5dp"
+           android:layout_height="match_parent"
+           android:layout_alignParentBottom="true"
+           android:background="@android:color/white" />
+
+       <TextView
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1.0"
+            android:textAllCaps="true"
+            android:text="Ok"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+
+       <View
+           android:layout_width="5dp"
+           android:layout_height="match_parent"
+           android:layout_alignParentRight="true"
+           android:background="@android:color/white" />
+
+   </LinearLayout>
+
+   <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white" />
+
+</LinearLayout>

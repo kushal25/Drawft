@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:background="#DDDDDD"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/sepTop"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white" />
+
+    <View
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:id="@+id/sepContainerLeft"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/sep"
+        android:layout_below="@+id/sepTop"
+        android:background="@android:color/white" />
+    <View
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:id="@+id/sepContainerRight"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/sep"
+        android:layout_below="@+id/sepTop"
+        android:background="@android:color/white" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:clipToPadding="false"
+        android:paddingBottom="20dp"
+        android:paddingLeft="@dimen/ambilwarna_spacer"
+        android:paddingRight="@dimen/ambilwarna_spacer"
+        android:paddingTop="20dp"
+        android:id="@+id/ambilwarna_viewContainer">
+
+        <com.drawft.util.AmbilWarnaKotak
+            android:id="@+id/ambilwarna_viewSatBri"
+            android:layout_width="@dimen/ambilwarna_hsvWidth"
+            android:layout_height="@dimen/ambilwarna_hsvHeight"
+            android:layerType="software" />
+
+        <ImageView
+            android:id="@+id/ambilwarna_viewHue"
+            android:layout_width="@dimen/ambilwarna_hueWidth"
+            android:layout_height="@dimen/ambilwarna_hsvHeight"
+            android:layout_toRightOf="@+id/ambilwarna_viewSatBri"
+            android:scaleType="fitXY"
+            android:paddingLeft="5dp"
+            android:src="@drawable/ambilwarna_hue" />
+
+        <TextView
+            android:id="@+id/ambilwarna_cursor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/double_arrow"/>
+
+        <TextView
+            android:id="@+id/ambilwarna_target"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="@string/icon_fa_circle_o" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/sep"
+        android:layout_below="@+id/ambilwarna_viewContainer"
+        android:background="@android:color/white" />
+
+    <LinearLayout
+        android:id="@+id/footer_wrapper"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/sep"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+
+        <View
+            android:layout_width="5dp"
+            android:id="@+id/sepLeft"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:textAllCaps="true"
+            android:padding="10dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:text="Cancel"
+            android:textSize="25sp">
+        </TextView>
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1.0"
+            android:textAllCaps="true"
+            android:text="Ok"
+            android:textSize="25sp"/>
+
+        <View
+            android:layout_width="5dp"
+            android:id="@+id/sepRight"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/white" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/sepLast"
+        android:layout_height="5dp"
+        android:layout_below="@+id/footer_wrapper"
+        android:background="@android:color/white" />
+
+
+</RelativeLayout>

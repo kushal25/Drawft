@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/section"
+        android:layout_width="fill_parent"
+        android:gravity="center|left"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_height="60sp"
+        android:textSize="21sp"
+        android:paddingLeft="20px"
+        android:visibility="gone"
+        android:background="#ffd8d8d8"
+        android:textColor="@android:color/black" />
+
+    <RelativeLayout
+        android:id="@+id/countryLayout"
+        android:background="@android:color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/countrySelName"
+            android:layout_width="wrap_content"
+            android:gravity="center|left"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_height="60sp"
+            android:textSize="21sp"
+            android:paddingLeft="20px"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/countryRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+</LinearLayout>

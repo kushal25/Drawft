@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DRAWFT</string>
+    <string name="hello_world">Hello Group Drawft</string>
+    <string name="contentDescription">contentDescription</string>
+    <string name="country">Country</string>
+    <string name="code">Code</string>
+    <string name="num">YOUR NUMBER</string>
+    <string name="call_num_1">GIVE US A CALL</string>
+    <string name="call_num_2">- TOLL FREE -</string>
+    <string name="call_num_3">TO VERIFY YOUR NUMBER</string>
+    <string name="call_info">Call will\nautomatically\ndisconnect\nafter 1-2 rings</string>
+    <string name="verify_terms">Terms and Conditions</string>
+    <string name="icon_dail"></string>
+    <string name="icon_phone"></string>
+    <string name="icon_drop"></string>
+    <string name="icon_user">Members</string>
+    <string name="icon_add">Non Members</string>
+    <string name="action_settings">Menu</string>
+    <string name="description">Image</string>
+    <string name="icon_image"></string>
+    <string name="icon_search"></string>
+    <string name="icon_new_group"></string>
+    <string name="search_input_hint">Search</string>
+    <string name="title_activity_new_group">New Group Activity</string>
+    <string name="title_activity_communication_list">CommunicationList</string>
+    <string name="group_name_hint">Enter Group Name</string>
+    <string name="groups_list_empty">Add [  ] Group</string>
+    <string name="icon_refresh"></string>
+    <string name="refresh_contacts">Refresh Contacts</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="app_status">App is up to date</string>
+    <string name="terms_conditions">Terms</string>
+    <string name="navigation_drawer_open">Navigation open</string>
+    <string name="navigation_drawer_close">Navigation closed</string>
+    <string name="gcm_message">sent you a Drawft</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="error_gcm_registered">Error while registering. Try again!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="no_internet">No\nInternet\nConnection</string>
+    <string name="retry">Retry</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="logo"></string>
+    <string name="share_title">Share with</string>
+    <string name="blockedText">You have blocked this chat. Unblock to send drawfts </string>
+
+    <string name="noteVerify1">You will receive a missed call on </string>
+    <string name="noteVerify2">.\n \n You need not answer the call.</string>
+    <string name="termsText">By using Drawft you agree to these </string>
+
+    <string name="numberVerify">VERIFY</string>
+
+
+
+    <!-- icons -->
+    <string name="icon_send_drawft">&#xe096;</string>
+    <string name="icon_undo_drawft">&#xe039;</string>
+    <string name="icon_lock_pad">&#xe007;</string>
+    <string name="icon_unlock_pad">&#xe008;</string>
+    <string name="icon_fa_circle_o">&#xe049;</string>
+    <string name="icon_fa_circle">&#xe087;</string>
+    <string name="icon_save">&#xe116;</string>
+    <string name="icon_remove_member">&#xe115;</string>
+    <string name="icon_add_member">&#xe114;</string>
+    <string name="icon_settings"></string>
+    <string name="icon_tile_user">&#xe074;</string>
+    <string name="icon_tile_notification">&#xe087;</string>
+    <string name="icon_heart">&#xe024;</string>
+    <string name="icon_trash">&#xe109;</string>
+    <string name="editGroupName">&#xe129;</string>
+    <string name="icon_cancel">&#xe117;</string>
+    <string name="icon_block">&#xe107;</string>
+    <string name="icon_bell">&#xe006;</string>
+    <string name="arrow_right">&#xe095;</string>
+    <string name="arrow_left">&#xe094;</string>
+    <string name="clear_drawfts">&#xe105;</string>
+    <string name="load_previous_drawfts">&#xe097;</string>
+    <string name="new_drawfts_icon">&#xe015;</string>
+    <string name="icon_slider">&#xe120;</string>
+    <string name="double_arrow">&#xe055;</string>
+
+    <string name="refresh_icon">&#xe058;</string>
+    <string name="create_group_icon">&#xe114;</string>
+    <string name="terms_icon">&#xe034;</string>
+    <string name="search_icon">&#xe036;</string>
+    <string name="new_version_icon">&#xe122;</string>
+
+    <string-array name="CountryCodes">
+        <item>0,0,A</item>
+        <item>93,AF,Afghanistan</item>
+        <item>355,AL,Albania</item>
+        <item>213,DZ,Algeria</item>
+        <item>684,AS,American Samoa</item>
+        <item>376,AD,Andorra</item>
+        <item>244,AO,Angola</item>
+        <item>672,AQ,Antarctica</item>
+        <item>54,AR,Argentina</item>
+        <item>374,AM,Armenia</item>
+        <item>297,AW,Aruba</item>
+        <item>61,AU,Australia</item>
+        <item>43,AT,Austria</item>
+        <item>994,AZ,Azerbaijan</item>
+        <item>0,0,B</item>
+        <item>973,BH,Bahrain</item>
+        <item>880,BD,Bangladesh</item>
+        <item>375,BY,Belarus</item>
+        <item>32,BE,Belgium</item>
+        <item>501,BZ,Belize</item>
+        <item>229,BJ,Benin</item>
+        <item>975,BT,Bhutan</item>
+        <item>591,BO,Bolivia</item>
+        <item>387,BA,Bosnia-Herzegovina</item>
+        <item>267,BW,Botswana</item>
+        <item>55,BR,Brazil</item>
+        <item>673,BN,Brunei Darussalam</item>
+        <item>359,BG,Bulgaria</item>
+        <item>226,BF,Burkina Faso</item>
+        <item>257,BI,Burundi</item>
+        <item>0,0,C</item>
+        <item>855,KH,Cambodia</item>
+        <item>237,CM,Cameroon</item>
+        <item>1,CA,Canada</item>
+        <item>238,CV,Cape Verde</item>
+        <item>236,CF,Central African Republic</item>
+        <item>235,TD,Chad</item>
+        <item>56,CL,Chile</item>
+        <item>86,CN,China</item>
+        <item>61,CX,Christmas Island</item>
+        <item>61,CC,Cocos (Keeling) Islands</item>
+        <item>57,CO,Colombia</item>
+        <item>269,KM,Comoros</item>
+        <item>242,CG,Congo</item>
+        <item>243,CD,Congo, Dem. Republic</item>
+        <item>682,CK,Cook Islands</item>
+        <item>506,CR,Costa Rica</item>
+        <item>385,HR,Croatia</item>
+        <item>53,CU,Cuba</item>
+        <item>357,CY,Cyprus</item>
+        <item>420,CZ,Czech Rep.</item>
+        <item>0,0,D</item>
+        <item>45,DK,Denmark</item>
+        <item>253,DJ,Djibouti</item>
+        <item>809,DO,Dominican Republic</item>
+        <item>0,0,E</item>
+        <item>593,EC,Ecuador</item>
+        <item>20,EG,Egypt</item>
+        <item>503,SV,El Salvador</item>
+        <item>240,GQ,Equatorial Guinea</item>
+        <item>291,ER,Eritrea</item>
+        <item>372,EE,Estonia</item>
+        <item>251,ET,Ethiopia</item>
+        <item>0,0,F</item>
+        <item>500,FK,Falkland Islands</item>
+        <item>298,FO,Faroe Islands</item>
+        <item>679,FJ,Fiji</item>
+        <item>358,FI,Finland</item>
+        <item>33,FR,France</item>
+        <item>594,GF,French Guiana</item>
+        <item>0,0,G</item>
+        <item>241,GA,Gabon</item>
+        <item>220,GM,Gambia</item>
+        <item>995,GE,Georgia</item>
+        <item>49,DE,Germany</item>
+        <item>233,GH,Ghana</item>
+        <item>350,GI,Gibraltar</item>
+        <item>44,GB,Great Britain</item>
+        <item>30,GR,Greece</item>
+        <item>299,GL,Greenland</item>
+        <item>590,GP,Guadeloupe (French)</item>
+        <item>502,GT,Guatemala</item>
+        <item>224,GN,Guinea</item>
+        <item>245,GW,Guinea Bissau</item>
+        <item>592,GY,Guyana</item>
+        <item>0,0,H</item>
+        <item>509,HT,Haiti</item>
+        <item>504,HN,Honduras</item>
+        <item>852,HK,Hong Kong</item>
+        <item>36,HU,Hungary</item>
+        <item>0,0,I</item>
+        <item>354,IS,Iceland</item>
+        <item>91,IN,India</item>
+        <item>62,ID,Indonesia</item>
+        <item>98,IR,Iran</item>
+        <item>964,IQ,Iraq</item>
+        <item>353,IE,Ireland</item>
+        <item>44,IM,Isle of Man</item>
+        <item>972,IL,Israel</item>
+        <item>39,IT,Italy</item>
+        <item>225,CI,Ivory Coast</item>
+        <item>0,0,J</item>
+        <item>81,JP,Japan</item>
+        <item>962,JO,Jordan</item>
+        <item>0,0,K</item>
+        <item>7,KZ,Kazakhstan</item>
+        <item>254,KE,Kenya</item>
+        <item>686,KI,Kiribati</item>
+        <item>850,KP,Korea-North</item>
+        <item>82,KR,Korea-South</item>
+        <item>965,KW,Kuwait</item>
+        <item>996,KG,Kyrgyzstan</item>
+        <item>0,0,L</item>
+        <item>856,LA,Laos</item>
+        <item>371,LV,Latvia</item>
+        <item>961,LB,Lebanon</item>
+        <item>266,LS,Lesotho</item>
+        <item>231,LR,Liberia</item>
+        <item>218,LY,Libya</item>
+        <item>423,LI,Liechtenstein</item>
+        <item>370,LT,Lithuania</item>
+        <item>352,LU,Luxembourg</item>
+        <item>0,0,M</item>
+        <item>853,MO,Macau</item>
+        <item>389,MK,Macedonia</item>
+        <item>261,MG,Madagascar</item>
+        <item>265,MW,Malawi</item>
+        <item>60,MY,Malaysia</item>
+        <item>960,MV,Maldives</item>
+        <item>223,ML,Mali</item>
+        <item>356,MT,Malta</item>
+        <item>692,MH,Marshall Islands</item>
+        <item>222,MR,Mauritania</item>
+        <item>230,MU,Mauritius</item>
+        <item>262,YT,Mayotte</item>
+        <item>52,MX,Mexico</item>
+        <item>691,FM,Micronesia</item>
+        <item>373,MD,Moldova</item>
+        <item>377,MC,Monaco</item>
+        <item>976,MN,Mongolia</item>
+        <item>382,ME,Montenegro</item>
+        <item>212,MA,Morocco</item>
+        <item>95,MM,Myanmar</item>
+        <item>258,MZ,Mozambique</item>
+        <item>0,0,N</item>
+        <item>264,NA,Namibia</item>
+        <item>674,NR,Nauru</item>
+        <item>977,NP,Nepal</item>
+        <item>31,NL,Netherlands</item>
+        <item>599,AN,Netherlands Antilles</item>
+        <item>687,NC,New Caledonia (French)</item>
+        <item>64,NZ,New Zealand</item>
+        <item>505,NI,Nicaragua</item>
+        <item>227,NE,Niger</item>
+        <item>234,NG,Nigeria</item>
+        <item>683,NU,Niue</item>
+        <item>47,NO,Norway</item>
+        <item>0,0,O</item>
+        <item>968,OM,Oman</item>
+        <item>0,0,P</item>
+        <item>92,PK,Pakistan</item>
+        <item>680,PW,Palau</item>
+        <item>507,PA,Panama</item>
+        <item>675,PG,Papua New Guinea</item>
+        <item>595,PY,Paraguay</item>
+        <item>51,PE,Peru</item>
+        <item>63,PH,Philippines</item>
+        <item>870,PN,Pitcairn Island</item>
+        <item>48,PL,Poland</item>
+        <item>689,PF,Polynesia (French)</item>
+        <item>351,PT,Portugal</item>
+        <item>1,PR,Puerto Rico</item>
+        <item>0,0,Q</item>
+        <item>974,QA,Qatar</item>
+        <item>0,0,R</item>
+        <item>262,RE,Reunion (French)</item>
+        <item>40,RO,Romania</item>
+        <item>7,RU,Russia</item>
+        <item>250,RW,Rwanda</item>
+        <item>0,0,S</item>
+        <item>290,SH,Saint Helena</item>
+        <item>508,PM,Saint Pierre and Miquelon</item>
+        <item>685,WS,Samoa</item>
+        <item>378,SM,San Marino</item>
+        <item>239,ST,Sao Tome and Principe</item>
+        <item>966,SA,Saudi Arabia</item>
+        <item>221,SN,Senegal</item>
+        <item>381,RS,Serbia</item>
+        <item>248,SC,Seychelles</item>
+        <item>232,SL,Sierra Leone</item>
+        <item>65,SG,Singapore</item>
+        <item>421,SK,Slovakia</item>
+        <item>386,SI,Slovenia</item>
+        <item>677,SB,Solomon Islands</item>
+        <item>252,SO,Somalia</item>
+        <item>27,ZA,South Africa</item>
+        <item>34,ES,Spain</item>
+        <item>94,LK,Sri Lanka</item>
+        <item>249,SD,Sudan</item>
+        <item>597,SR,Suriname</item>
+        <item>268,SZ,Swaziland</item>
+        <item>46,SE,Sweden</item>
+        <item>41,CH,Switzerland</item>
+        <item>963,SY,Syria</item>
+        <item>0,0,T</item>
+        <item>886,TW,Taiwan</item>
+        <item>992,TJ,Tajikistan</item>
+        <item>255,TZ,Tanzania</item>
+        <item>66,TH,Thailand</item>
+        <item>228,TG,Togo</item>
+        <item>690,TK,Tokelau</item>
+        <item>676,TO,Tonga</item>
+        <item>216,TN,Tunisia</item>
+        <item>90,TR,Turkey</item>
+        <item>993,TM,Turkmenistan</item>
+        <item>688,TV,Turkmenistan</item>
+        <item>0,0,U</item>
+        <item>44,UK,U.K.</item>
+        <item>256,UG,Uganda</item>
+        <item>380,UA,Ukraine</item>
+        <item>971,AE,United Arab Emirates</item>
+        <item>598,UY,Uruguay</item>
+        <item>1,US,USA</item>
+        <item>998,UZ,Uzbekistan</item>
+        <item>0,0,V</item>
+        <item>678,VU,Vanuatu</item>
+        <item>39,VA,Vatican</item>
+        <item>58,VE,Venezuela</item>
+        <item>84,VN,Vietnam</item>
+        <item>0,0,W</item>
+        <item>681,WF,Wallis and Futuna Islands</item>
+        <item>0,0,Y</item>
+        <item>967,YE,Yemen</item>
+        <item>0,0,Z</item>
+        <item>260,ZM,Zambia</item>
+        <item>263,ZW,Zimbabwe</item>
+    </string-array>
+
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_user_profile">UserProfileActivity</string>
+    <string name="title_activity_blocked_text">blockedText</string>
+
+</resources>

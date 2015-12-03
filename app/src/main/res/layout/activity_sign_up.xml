@@ -1,0 +1,202 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pad_background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/details"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+        <!--
+                <com.groupdrawft.util.AnimationView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:background="#E0E0E5"/> -->
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/drawft_logo1"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D R A W F T"
+            android:textColor="#D81B60"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Communicate with drawings in realtime"
+            android:textColor="#34495e"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello@drawft.com"
+            android:textColor="#D81B60"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/details"
+        android:background="@drawable/number_field"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:background="@drawable/number_field"
+            android:paddingBottom="1dp"
+            android:orientation="horizontal"
+            android:id="@+id/numberDetails"
+            >
+            <!--
+            <TextView
+                android:id="@+id/countryName"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:background="@drawable/border_right"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:singleLine="true"
+                android:text="@string/country"
+                android:textColor="@color/hint_color"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textStyle="bold" /> -->
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_right" />
+
+            <EditText
+                android:id="@+id/country_code"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="10dp"
+                android:background="@null"
+                android:gravity="center"
+                android:hint="@string/code"
+                android:inputType="phone"
+                android:maxLength="6"
+                android:minWidth="30dp"
+                android:textColorHint="@color/white"
+                android:textColor="@color/font_color"
+                android:editable="false"
+                android:textSize="30sp" />
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_right" />
+
+            <EditText
+                android:id="@+id/contactNumEditText"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:background="@null"
+                android:gravity="center"
+                android:hint="@string/num"
+                android:inputType="phone"
+                android:maxLength="14"
+                android:minWidth="30dp"
+                android:singleLine="true"
+                android:textColorHint="@color/white"
+                android:textColor="@color/font_color"
+                android:textSize="30sp">
+
+                <requestFocus />
+            </EditText>
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_right" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_right" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:id="@+id/next"
+                android:text="@string/numberVerify"
+                android:clickable="true"
+                android:minWidth="30dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:background="@color/icon_color_blue"/>
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_right" />
+
+        </LinearLayout>
+
+
+
+
+        <!--
+                    <TextView
+                        android:id="@+id/terms"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|bottom"
+                        android:padding="15dp"
+                        android:text="@string/verify_terms"
+                        android:textColor="#e12345"
+                        android:textSize="12sp"
+                        android:textStyle="bold" /> -->
+
+    </LinearLayout>
+
+</RelativeLayout>

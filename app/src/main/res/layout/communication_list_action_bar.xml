@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:background="@color/dark_color"
+    android:layout_gravity="bottom"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/inputSearchLi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="0dp"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/inputSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:textSize="25sp"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:gravity="left|center"
+            android:hint="@string/search_input_hint"
+            android:inputType="textVisiblePassword"
+            android:textColorHint="#7A8A9A">
+            <requestFocus />
+
+        </EditText>
+
+        <Button
+            android:id="@+id/search_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="-12dp"
+            android:background="@android:color/transparent"
+            android:text="@string/icon_cancel"
+            android:textColor="#5A6A7A"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
